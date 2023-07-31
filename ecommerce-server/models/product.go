@@ -5,6 +5,6 @@ import "time"
 type Product struct {
 	ID           uint   `json:"id" gorm:"primaryKey"`
 	Name         string `json:"name"`
-	SerialNumber string `json:"serialName"`
+	SerialNumber string `json:"serialNumber"`
 	CreatedAt    time.Time
 }
